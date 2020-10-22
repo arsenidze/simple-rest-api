@@ -1,0 +1,19 @@
+{
+  "name": "simple-rest-api",
+  "version": "1.0.0",
+  "description": "simple rest api using node.js and vue.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
